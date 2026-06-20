@@ -1,6 +1,6 @@
 # Feedback Analytics
 
-Este é um sistema de software desenvolvido como uma solução tecnológica integrada para a gestão, processamento e análise inteligente de feedbacks de clientes. 
+Este é um sistema de software desenvolvido como uma solução tecnológica integrada para a coleta, gestão e análise inteligente de feedbacks de clientes. 
 
 O projeto adota metodologias ágeis, engenharia de software rigorosa e uma arquitetura moderna orientada a componentes e serviços.
 
