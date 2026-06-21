@@ -1,20 +1,4 @@
-# Guia
 
-- **Planejamento de tarefas**: [Issues](https://github.com/orgs/TCC-Feedback-Analytics/projects/3/views/3) 
-- **Informações e Atualizações**: [Discussions](https://github.com/orgs/TCC-Feedback-Analytics/discussions) - *Atenção*: Sempre olhem
-- **Documentação do Projeto**: [Doc](https://tcc-feedback-analytics.github.io/feedback-analytics/) - *Atenção*: Dúvidas, olha na documentação
-
-### Infraestruturas
-- **Deploy**: [Vercel](https://vercel.com/)
-- **IA**: [Gemini API](https://ai.google.dev/gemini-api/docs?hl=pt-br)
-- **Banco de Dados**: [Supabase](https://supabase.com/)
-
-### O que está em Produção
-- **Main**: https://feedback-analytics-web.vercel.app/
-- **Homolog**: https://feedback-analytics-web-homolog.vercel.app/
-- **Documentação**: https://tcc-feedback-analytics.github.io/feedback-analytics/
-
----
 # Feedback Analytics
 
 Este é um sistema de software desenvolvido como uma solução tecnológica integrada para a coleta, gestão e análise inteligente de feedbacks de clientes. 
