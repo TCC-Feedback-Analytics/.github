@@ -1,8 +1,8 @@
 # Guia
 
-- **Planejamento de tarefas**: [Issues](https://github.com/orgs/TCC-Feedback-Analytics/projects/3/views/3)
-- **Informações e Atualizações**: [Discussions](https://github.com/orgs/TCC-Feedback-Analytics/discussions)
-- **Documentação do Projeto**: [Doc](https://tcc-feedback-analytics.github.io/feedback-analytics/)
+- **Planejamento de tarefas**: [Issues](https://github.com/orgs/TCC-Feedback-Analytics/projects/3/views/3) 
+- **Informações e Atualizações**: [Discussions](https://github.com/orgs/TCC-Feedback-Analytics/discussions) *Atenção*: Sempre olhem
+- **Documentação do Projeto**: [Doc](https://tcc-feedback-analytics.github.io/feedback-analytics/) *Atenção*: Dúvidas, olha na documentação
 
 ### Infraestruturas
 - **Deploy**: [Vercel](https://vercel.com/)
