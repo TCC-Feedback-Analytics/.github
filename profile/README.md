@@ -7,6 +7,7 @@
 ### Infraestruturas
 - **Deploy**: [Vercel](https://vercel.com/)
 - **IA**: [Gemini API](https://ai.google.dev/gemini-api/docs?hl=pt-br)
+- **Banco de Dados**: [Supabase](https://supabase.com/)
 
 ---
 # Feedback Analytics
