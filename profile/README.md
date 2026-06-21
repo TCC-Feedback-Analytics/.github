@@ -9,6 +9,10 @@
 - **IA**: [Gemini API](https://ai.google.dev/gemini-api/docs?hl=pt-br)
 - **Banco de Dados**: [Supabase](https://supabase.com/)
 
+### O que está em Produção
+- **Main**: https://feedback-analytics-web.vercel.app/
+- **Homolog**: https://feedback-analytics-web-homolog.vercel.app/
+
 ---
 # Feedback Analytics
 
