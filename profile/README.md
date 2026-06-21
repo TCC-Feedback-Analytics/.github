@@ -12,6 +12,7 @@
 ### O que está em Produção
 - **Main**: https://feedback-analytics-web.vercel.app/
 - **Homolog**: https://feedback-analytics-web-homolog.vercel.app/
+- **Documentação**: https://tcc-feedback-analytics.github.io/feedback-analytics/
 
 ---
 # Feedback Analytics
