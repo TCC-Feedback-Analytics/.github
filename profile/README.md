@@ -4,6 +4,10 @@
 - **Informações e Atualizações**: [Discussions](https://github.com/orgs/TCC-Feedback-Analytics/discussions)
 - **Documentação do Projeto**: [Doc](https://tcc-feedback-analytics.github.io/feedback-analytics/)
 
+### Infraestruturas
+- **Deploy**: [Vercel](https://vercel.com/)
+- **IA**: [Gemini API](https://ai.google.dev/gemini-api/docs?hl=pt-br)
+
 ---
 # Feedback Analytics
 
