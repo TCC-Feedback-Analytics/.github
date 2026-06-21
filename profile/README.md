@@ -41,10 +41,9 @@ Para garantir a evolução sustentável adotamos políticas de maturação de c�
 1. **Gestão de Demandas:** Centralizada no **GitHub Projects** utilizando fluxos Kanban divididos por *Milestones* de entrega.
 2. **Estratégia de Branching:** Uso de branches efêmeras (`feature/*`, `fix/*`) derivadas de uma branch de integração (`homolog`). Commits diretos na `main` são bloqueados por Rulesets.
 3. **Quality Gates:** Todo Pull Request dispara uma esteira automatizada no **GitHub Actions** que valida:
-   * Formatação de Código (Linter)
-   * Suíte de Testes (Unitários/Integration)
-   * Build de Produção
-4. **Revisão por Pares:** Nenhum código é integrado sem a aprovação de pelo menos um outro engenheiro do time após o *Code Review*.
+   * Formatação de Código (Linter & Typecheck): Confere os padrões de código e valida os tipos.
+   * Suíte de Testes (Unitários/Integration): Roda os testes das três frentes do sistema (Web, API e IA) em toda PR para homolog.
+   * Validação de Produção (E2E & Build): Na PR de homolog para main, executa novamente as etapas anteriores e adiciona os testes de ponta a ponta (E2E).
 
 ---
 
