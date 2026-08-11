@@ -31,6 +31,8 @@ Para garantir a evolução sustentável adotamos políticas de maturação de c�
 
 ---
 
+Acesse: https://feedback-analytics-web.vercel.app/
+
 <p align="center">
   <small>Organização acadêmica voltada à pesquisa aplicada e desenvolvimento de software. 2026.</small>
 </p>
