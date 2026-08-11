@@ -29,9 +29,10 @@ Para garantir a evolução sustentável adotamos políticas de maturação de c�
    * Suíte de Testes (Unitários/Integration): Roda os testes das três frentes do sistema (Web, API e IA) em toda PR para homolog.
    * Validação de Produção (E2E & Build): Na PR de homolog para main, executa novamente as etapas anteriores e adiciona os testes de ponta a ponta (E2E).
 
----
 
 Acesse: https://feedback-analytics-web.vercel.app/
+
+---
 
 <p align="center">
   <small>Organização acadêmica voltada à pesquisa aplicada e desenvolvimento de software. 2026.</small>
