@@ -23,11 +23,11 @@ Professor Orientador: Wosney Ramos de Souza
 Para garantir a evolução sustentável adotamos políticas de maturação de código:
 
 1. **Gestão de Demandas:** Centralizada no **GitHub Projects** utilizando fluxos Kanban divididos por *Milestones* de entrega.
-2. **Estratégia de Branching:** Uso de branches efêmeras (`feature/*`, `fix/*`) derivadas de uma branch de integração (`homolog`). Commits diretos na `main` são bloqueados por Rulesets.
-3. **Quality Gates:** Todo Pull Request dispara uma esteira automatizada no **GitHub Actions** que valida:
-   * Formatação de Código (Linter & Typecheck): Confere os padrões de código e valida os tipos.
-   * Suíte de Testes (Unitários/Integration): Roda os testes das três frentes do sistema (Web, API e IA) em toda PR para homolog.
-   * Validação de Produção (E2E & Build): Na PR de homolog para main, executa novamente as etapas anteriores e adiciona os testes de ponta a ponta (E2E).
+2. **Estratégia de Branching:** Uso de branches efêmeras (`feat/*`, `fix/*`, `chore/*`, `docs/*`) derivadas da branch de integração (`developer`), que chega à `main` por Pull Request. Commits diretos na `developer` e na `main` são bloqueados por Rulesets.
+3. **Quality Gates:** Todo push e Pull Request para a `developer` ou a `main` dispara uma esteira automatizada no **GitHub Actions** que valida, nas três frentes do sistema (Web, API e IA):
+   * Formatação de Código (Linter & Typecheck): Confere os padrões de código e valida os tipos; na Web, também gera o build.
+   * Suíte de Testes (Vitest): Roda os testes unitários e de integração.
+4. **Deploy:** Feito por workflows manuais do GitHub Actions, só a partir da `main`, publicando na **Vercel**. O deploy da API aplica as migrations do banco antes de publicar.
 
 
 Acesse: https://feedback-analytics-web.vercel.app/
