@@ -11,7 +11,7 @@ Este é um sistema de software desenvolvido como uma solução tecnológica inte
 | :--- | :--- | :--- |
 | **Clara Luz Lopes** | Product Owner & AI |  Gestão ágil de Escopo, Priorização do Backlog, Engenharia de Prompts para LLMs |
 | **Fernando Sérgio** | Backend Engineer | APIs Restful (Express), Regras de Negócio, Conexão e Migrations |
-| **Rachel Alves** | DevOps & QA | Esteiras de CI/CD (GitHub Actions), Qualidade de Código (Vitest + Playwright) e Deploys (Vercel) |
+| **Rachel Alves** | DevOps & QA | Esteiras de CI/CD (GitHub Actions), Qualidade de Código (Vitest e roteiros de teste manual) e Deploys (Vercel) |
 | **Vinicius dos Santos** | Frontend Engineer | SPA/Web Client (React 19 + Vite), Estado da Aplicação, UI/UX Consistente |
 
 Professor Orientador: Wosney Ramos de Souza
