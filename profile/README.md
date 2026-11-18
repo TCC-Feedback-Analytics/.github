@@ -23,10 +23,11 @@ Professor Orientador: Wosney Ramos de Souza
 Para garantir a evolução sustentável adotamos políticas de maturação de código:
 
 1. **Gestão de Demandas:** Centralizada no **GitHub Projects** utilizando fluxos Kanban divididos por *Milestones* de entrega.
-2. **Estratégia de Branching:** Uso de branches efêmeras (`feat/*`, `fix/*`, `chore/*`, `docs/*`) derivadas da branch de integração (`developer`), que chega à `main` por Pull Request. Commits diretos na `developer` e na `main` são bloqueados por Rulesets.
+2. **Estratégia de Branching:** Uso de branches efêmeras (`feat/*`, `fix/*`, `chore/*`, `docs/*`) derivadas da branch de integração (`developer`), que chega à `main` por Pull Request. Commits diretos na `developer` e na `main` são bloqueados por Rulesets. A exceção é o repositório da documentação, que só tem a `main`, sem Ruleset.
 3. **Quality Gates:** Todo push e Pull Request para a `developer` ou a `main` dispara uma esteira automatizada no **GitHub Actions** que valida, nas três frentes do sistema (Web, API e IA):
    * Formatação de Código (Linter & Typecheck): Confere os padrões de código e valida os tipos; na Web, também gera o build.
    * Suíte de Testes (Vitest): Roda os testes unitários e de integração.
+   * Migrations (só na API): Monta o banco do zero pelas migrations e confere se o schema bate com elas, quando a mudança mexe no banco ou nas dependências.
 4. **Deploy:** Feito por workflows manuais do GitHub Actions, só a partir da `main`, publicando na **Vercel**. O deploy da API aplica as migrations do banco antes de publicar.
 
 
